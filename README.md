@@ -56,4 +56,39 @@ The application is designed with a focus on **user-friendly UI**, **client-side 
 ---
 
 ## Folder Structure
+affordmed-url-shortener/
+│
+├── public/
+├── src/
+│ ├── components/
+│ │ ├── UrlForm.js
+│ │ ├── UrlList.js
+│ │ ├── StatsPage.js
+│ │ └── LoggerMiddleware.js
+│ ├── App.js
+│ └── index.js
+├── package.json
+├── README.md
+└── ...
+## Running the Project Locally
 
+### Prerequisites
+
+- Node.js and npm installed
+- Git installed
+- Internet access for dependency installation
+
+### Steps
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/Nehapriya30/22481A05P9.git
+   cd 22481A05P9
+Install dependencies
+
+npm install
+Start the development server
+
+npm start
+Visit: http://localhost:3000 in your browser.
